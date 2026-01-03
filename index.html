@@ -4,11 +4,88 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my first code</title>
+
+    <style>
+      *{
+        margin: 10px;
+        background-color: beige;
+      }
+
+      .heading{
+        text-align: center;
+        color: blueviolet;
+      }
+
+      .btn_1{
+        background-color: blueviolet;
+        color: white;
+        border-radius: 5px;
+      
+      }
+
+      .blog{
+        text-align: center;
+      }
+
+      .buy{
+        color: indigo;
+      }
+
+      .list_1{
+        color: indigo;
+      }
+
+      .food{
+        color: cadetblue;
+      }
+
+      .list_2{
+        color: cadetblue;
+      }
+
+      .fav{
+        color: red;
+        font-size: 30px;
+      }
+
+      .biriyani{
+        text-align: center;
+      }
+
+      .feedback{
+        color: cadetblue;
+        text-align: center;
+      }
+
+      .btn_2{
+        color: white;
+        background-color: green;
+        border: 1px black solid;
+        border-radius: 5px;
+      }
+
+      .btn_3{
+        color: white;
+        background-color: red;
+        border: 1px black solid;
+        border-radius: 5px;
+      }
+
+      a{
+        text-decoration: none;
+        color: indigo;
+        font-size: 20px;
+        
+        
+      }
+
+      
+    </style>
   </head>
   <body>
     <!--- heading --->
 
-    <div>
+    <div class="heading">
       <h1><em> My Travel Vlog </em></h1>
     </div>
     <br />
@@ -16,7 +93,7 @@
 
     <!--this is experience section-->
 
-    <div>
+    <div class="blog">
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed,
         distinctio in! Sapiente, dolores? Autem odit doloribus eveniet.
@@ -41,14 +118,14 @@
         ratione commodi itaque nostrum eum illo accusamus, rerum facilis, quia,
         libero pariatur praesentium. Atque ipsum ipsam id veritatis!
       </p> <br>
-      <button>Read More</button> 
+      <button class="btn_1">Read More</button> 
       
     </div> <br> <br>
 
    <span>
-    <em><h1>What I bought</h1></em> <br>
+    <em><h1 class="buy">What I bought</h1></em> <br>
 
-    <ol type="1">
+    <ol type="1" class="list_1">
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
         <li>Lorem ipsum dolor sit amet.</li>
@@ -57,16 +134,16 @@
     </ol>
    </span>
 
-   <span>
-        <em><h2>My favourite food is Biriyani</h2></em> <br>
+   <span class="biriyani">
+        <em><h2 class="fav">My favourite food is Biriyani</h2></em> <br>
     <div>
         <img src="https://www.kannammacooks.com/wp-content/uploads/chettinadu-chicken-biriyani-1-3.jpg" alt="image" height="200px" width="200px">
    </div>
    </span> <br> <br>
 
    <span>
-        <em><strong>Foods I ate there</strong></em>
-    <ul >
+        <h1 class="food"><em><strong>Foods I ate there</strong></em></h1>
+    <ul class="list_2" >
         <li>Lorem, ipsum.</li>
         <li>Lorem, ipsum.</li>
         <li>Lorem, ipsum.</li>
@@ -76,14 +153,14 @@
    </span>
 
    <div>
-    <a href="https://youtu.be/riy2ANErV3o?si=dkbzC29gRczorJy1" target="_blank">My favourite song</a>
+    <a href="https://youtu.be/riy2ANErV3o?si=dkbzC29gRczorJy1" target="_blank">To listen my favourite song click here</a>
    </div>
 
    <div> <br> <br>
 
     <div>
 
-        <h1>Your Feedback</h1> <br> <br>
+        <h1 class="feedback">Your Feedback</h1> <br> <br>
 
           <form action="">
               <label for="name">Your Name</label>
@@ -110,8 +187,8 @@
              <h2>Your feedback</h2> <br> 
               <textarea name="textarea" id="textarea rows="30" cols="40"">your feedback</textarea> <br>
 
-              <button type="submit">Submit</button>
-              <button type="reset">Reset</button>
+              <button type="submit" class="btn_2">Submit</button>
+              <button type="reset" class="btn_3">Reset</button>
 
         </form>
       </div>
